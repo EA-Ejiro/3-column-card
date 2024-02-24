@@ -1,0 +1,31 @@
+body{
+    background-color: red;
+}
+.test{
+    border: 10px solid aquamarine;
+}
+.card-one{
+    /* margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 45px;
+    margin-right: 13px; */
+    /* shorter way to write it when the top and bottom,left and right are the different */
+    margin: 45px 13px 20px 30px;
+
+}
+.card-two{
+    /* margin-bottom: 40px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 20px; */
+/* shorter way to write it when the top and bottom are the same px,and left and right are the same */
+    margin: 40px 20px;
+
+}
+
+@media only screen and (max-width: 600px) {
+body{
+    background: yellow;
+    .test{
+        border: 10px solid green;
+)
